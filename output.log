@@ -1,15 +1,68 @@
 nohup: ignoring input
-[0mGET / [36m304 [0m6.992 ms - -[0m
-[0mGET /app.js [36m304 [0m1.257 ms - -[0m
-[0mGET /favicon.ico [31m500 [0m7.379 ms - 1291[0m
-Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creative4/views"
-    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:579:17)
-    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:961:7)
-    at /opt/bitnami/apache2/htdocs/creative4/app.js:53:7
-    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/layer.js:71:5)
-    at trim_prefix (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:310:13)
-    at /opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:280:7
-    at Function.process_params (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:330:12)
-    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/router/index.js:271:10)
-    at done (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/response.js:956:25)
-    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m6.064 ms - -[0m
+[0mGET /style.css [36m304 [0m1.849 ms - -[0m
+[0mGET /app.js [36m304 [0m1.837 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m7.480 ms - 1401[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creatives/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m2.504 ms - 2604[0m
+[0mGET /apple-touch-icon-precomposed.png [31m500 [0m1.269 ms - 1401[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creatives/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /apple-touch-icon.png [31m500 [0m1.110 ms - 1401[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creatives/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.047 ms - 1401[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creatives/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m5.044 ms - 2635[0m
+[0mGET /style.css [36m304 [0m0.633 ms - -[0m
+[0mGET /app.js [36m304 [0m0.533 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.235 ms - 1401[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/creatives/creative4/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/app.js:53:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/creatives/creative4/node_modules/express/lib/application.js:581:14)
