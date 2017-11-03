@@ -38,7 +38,7 @@ angular.module('News', ['ui.router'])
 	  title:$scope.formContent,
           upvotes:0,
           comments:[],
-	  img:{url}
+	  img:url
         });
 	console.log(url);
         $scope.title='';

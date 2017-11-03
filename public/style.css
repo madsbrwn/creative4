@@ -7,3 +7,8 @@ body {
   width: 100%;
   height: auto;
 }
+
+.post {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
