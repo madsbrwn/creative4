@@ -2,6 +2,7 @@
   <head>
     <title>News</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
     <script src="app.js"></script>
     <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
@@ -9,7 +10,7 @@
   </head>
   <body ng-app="News" ng-controller="MainCtrl">
   <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+  <div class="main col-md-6 col-md-offset-3">
   <script type="text/ng-template" id="/home.html">
   </script>
     <ui-view></ui-view> 
@@ -18,21 +19,26 @@
   </body>
 
   <script type="text/ng-template" id="/home.html">
- <div class="page-header"> 
-    <h1>News</h1>
+  
+  <a href='#'><img id="banner" src="https://vignette.wikia.nocookie.net/theoffice/images/b/b5/Creed_thoughts_header.jpg/revision/latest?cb=20120107185648"></a>
+  <div class="page-header"> 
+    <h1>Creed Thoughts!</h1>
+    <p> Hey-o, everyone out there in SyberWorld. It,s old Creed Bratton coming at your again, here from my perch as a Quality Assurance Manager at Dunder Mifflin paper. Just a few observations on the world around me.<br>What do you guys think is the best kind of car? To me, you can,t beat motorcycles. They,re small and dangerous.<br>I got into a car a</p>
   </div>
 
     <form ng-submit="addPost()" style = "margin-top30px;">
+      <p>Write me some of you,re thoughts here:</p>
       <input type="text" ng-model="formContent"></input>
-      <button type="submit">Post</button>
+      <button type="submit">Tell me</button>
     </form>
-    <div>
+   <div>
       {{test}}
     </div>
     <div ng-repeat="post in posts | orderBy: '-upvotes'">
       <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)"></span>
-      {{post.title}} - upvotes: {{post.upvotes}}
+      {{post.title}}<br>
       <a href="#/posts/{{posts.indexOf(post)}}">Comments</a>
+      <img ng-src="{{post.img}}">
     </div> 
   </script>
    

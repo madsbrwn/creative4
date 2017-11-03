@@ -28,14 +28,22 @@ angular.module('News', ['ui.router'])
       function($scope, postFactory){
         $scope.posts = postFactory.posts; 
         $scope.addPost = function() {
-        $scope.posts.push({
-          title:$scope.formContent,
+          var url;
+	  var num = Math.floor(Math.random() * 3) + 1;
+            if (num === 1) url = "https://uproxx.files.wordpress.com/2013/05/creedbratton-creedthoughts-1.gif?w=650";
+            else if (num === 2) url = "https://i.imgur.com/90akEXq.gif";
+            else if (num === 3) url = "https://i.pinimg.com/originals/23/4f/2f/234f2fe11f1a71b058ab19d9a3d0801a.jpg";
+
+	$scope.posts.push({
+	  title:$scope.formContent,
           upvotes:0,
-          comments:[]
+          comments:[],
+	  img:{url}
         });
+	console.log(url);
         $scope.title='';
       };
-       $scope.incrementUpvotes = function(post) {
+      $scope.incrementUpvotes = function(post) {
          post.upvotes += 1;
        };
      }
